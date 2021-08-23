@@ -1,0 +1,39 @@
+.app{
+  min-height: 100vh;
+  .left{
+    background-color:#222323;
+    .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 100%;
+      .menu{
+        display: flex;
+        flex-grow: 1;
+      }
+      .logoBox{
+        margin-bottom: 30px;
+        text-align: center;
+        .logo{
+          width: 100px;
+        }
+      }
+    }
+  }
+  .right{
+    .header :global{
+      background-color: #fff;
+      padding: 0 24px;
+      .trigger{
+        font-size: 18px;
+        line-height: 64px;
+        cursor: pointer;
+        transition: color 0.3s;
+      }
+      .trigger:hover{
+        color: #1890ff;
+      }
+    }
+  }
+}
+
