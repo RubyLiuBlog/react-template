@@ -1,0 +1,15 @@
+.item{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.circle{
+  border-radius: 50%;
+  font-size: 12px;
+  margin-right: 10px;
+  height: 12px;
+  width: 12px;
+}
+.content{
+  margin-left: 10px;
+}

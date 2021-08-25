@@ -1,0 +1,10 @@
+.bodyAction{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  .right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+}

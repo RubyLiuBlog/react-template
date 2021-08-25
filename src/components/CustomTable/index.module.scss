@@ -1,0 +1,30 @@
+ // 表格#666666背景表头高50px
+.tableBlackHeader :global{
+  
+  .ant-table-thead > tr > th{
+    background: #666666;
+    color: white;
+    height: 3.571429rem;
+    padding: 10px 3px;
+  }
+  .ant-table-row-level-0 > td:first-child {
+    padding-left: 10px;
+  }
+  .ant-table-container table > thead > tr:first-child th:first-child {
+    padding-left: 10px;
+  }
+  .ant-table-column-sorters{
+    padding: 0;
+  }
+  .ant-table-tbody > tr > td{
+    padding: 10px 3px;
+  }
+  .ant-table-thead th.ant-table-column-sort :hover{
+    color: black;
+  }
+  .ant-table-thead th.ant-table-column-has-sorters :hover{
+    color: black;
+  }
+  
+  
+}
