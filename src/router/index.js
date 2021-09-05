@@ -16,7 +16,7 @@ import ChildB from '../pages/Example/ChildB'
 const AppRouter = [
   {
     key: 'page1',
-    name: 'page1',
+    name: 'page',
     showMenu: true,
     auth: false,
     parent: true,
@@ -24,7 +24,7 @@ const AppRouter = [
       {
         components: ChildA,
         key: 'children1',
-        name: '新建1',
+        name: 'childA',
         icon: 'icon-add',
         showMenu: true,
         auth: false,
@@ -35,7 +35,7 @@ const AppRouter = [
       {
         components: ChildB,
         key: 'children2',
-        name: '新建2',
+        name: 'childB',
         icon: 'icon-add',
         showMenu: true,
         auth: false,
@@ -48,7 +48,7 @@ const AppRouter = [
   {
     components: Example,
     key: 'page2',
-    name: 'page2',
+    name: 'example',
     showMenu: true,
     auth: true,
     path: '/page2/index',

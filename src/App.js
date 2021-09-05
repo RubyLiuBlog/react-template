@@ -4,16 +4,17 @@ import { Layout,ConfigProvider } from 'antd'
 import zhCN from 'antd/lib/locale/zh_CN';
 import Style from './app.module.scss'
 import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
+import { IntlProvider } from 'react-intl';
+import Lang from './lang';
 import CustomSlider from './layout/CustomSlider'
 import useRouterModel from './model/useRouterModel'
-
+addLocaleData()
 const { Header, Content, Sider } = Layout;
 
 const App = () => {
   const [list, setList ] = useState([])
   const [collapsed,setCollapsed] = useState(false)
   const { routerList } = useRouterModel()
-
   useEffect(() => {
     initRouter(routerList)
   },[routerList])

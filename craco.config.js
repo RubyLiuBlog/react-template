@@ -31,7 +31,7 @@ module.exports = {
           lessOptions: {
             // antd 主色
             modifyVars: { 
-              '@primary-color': '#1DA57A'
+              // '@primary-color': '#1DA57A'
             },
             javascriptEnabled: true,
           },
