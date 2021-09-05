@@ -8,7 +8,6 @@ import { IntlProvider } from 'react-intl';
 import Lang from './lang';
 import CustomSlider from './layout/CustomSlider'
 import useRouterModel from './model/useRouterModel'
-addLocaleData()
 const { Header, Content, Sider } = Layout;
 
 const App = () => {
